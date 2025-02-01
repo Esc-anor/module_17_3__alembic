@@ -2,7 +2,7 @@
 from app.backend.db import Base
 from sqlalchemy import ForeignKey, Column, Integer, String, Boolean
 from sqlalchemy.orm import relationship
-from user import User
+from app.models.user import User
 from sqlalchemy.schema import CreateTable
 
 

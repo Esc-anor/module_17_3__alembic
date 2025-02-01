@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.schema import CreateTable
 
 
-# from task import Task
+# from app.models import *
 
 class User(Base):
     __tablename__ = 'users'
